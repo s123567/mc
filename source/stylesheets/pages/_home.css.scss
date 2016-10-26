@@ -1,7 +1,9 @@
 #landing {
+  background: image-url('street-art-site-b.jpg');
   min-height: 100vh;
   background-size: cover;
   position:relative;
+  color: white;
 }
 
 .name-contact {
@@ -30,4 +32,20 @@
 
 #philo {
   min-height: 100vh;
+}
+
+.big-sentence {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+
+.testimony-text {
+  color: $dark-blue;
+}
+.detail-blue {
+  color: $blue;
+}
+.detail-grey {
+  color: $light-gray;
 }

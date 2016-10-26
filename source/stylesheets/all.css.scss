@@ -17,16 +17,31 @@
 p {
   color: $gray-text;
   font-weight: 300;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 h1 {
   color: $dark-blue;
-  font-size: 2em;
+  font-size: 2.4em;
 }
 
 h2 {
   color: $dark-blue;
-  font-size: 1.6em;
+  font-size: 2.1em;
   font-weight: 700;
+}
+
+hr {
+  background-color: $red;
+  height: 1px;
+  border: 0;
+  width: 50%;
+
+}
+
+.blue {
+  background-color: $blue;
+  height: 1px;
+  border: 0;
+  width: 25%;
 }

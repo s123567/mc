@@ -19,7 +19,15 @@ title: Mathieu Chiron | Ruby On Rails and Front Developper
 </div><!-- .welcome -->
 
 <!-- /////////PHILOSOPHIE ///////// -->
-<div id="philo" class="slimmer scroll-to">
+<div id="philo" class="container-fluid slimmer scroll-to">
+  <div class="first-idea">
+      <div class="big-sentence padded-sm">
+        <h2>Bla ghg hsghdgf dhfgdhfg dhfgdhfg</h2>
+      </div>
+      <div class="explications">
+        <p>djfgdyfdg fdgf dfgd fhdfgdhfgdhghghf dhghghdgfhdgf hdgf. fhjdhfjd oioio dhfjdhf jhfdfdfhdg fgfhdgfhdg fhdgfhdgpeopzoepzoep. dfdgfdgfhd ffeeytryetr. fdgfhdgfhdgf</p>
+      </div>
+  </div> <!-- first idea -->
   <div class="first-idea">
       <div class="big-sentence padded-sm">
         <h2>Bla ghg hsghdgf dhfgdhfg dhfgdhfg</h2>
@@ -40,7 +48,6 @@ title: Mathieu Chiron | Ruby On Rails and Front Developper
         <p> dhfjdhf jhfdfdfhdg fgfhdgfhdg fhdgfhdgpeopzoepzoep. dfdgfdgfhd ffeeytryetr. fdgfhdgfhdgf</p>
       </div>
     </div>
-    <hr>
   </div>
   <div class="row padded-sm">
     <div class="col-xs-12 col-sm-4">
@@ -56,9 +63,9 @@ title: Mathieu Chiron | Ruby On Rails and Front Developper
   </div>
   
 </div>
-
+<hr>
 <!-- /////////TEMOIGNAGES ///////// -->
-<div id="testimony">
+<div id="testimony" class="container-fluid">
   
   <div class="row slimmer padded-sm">
     <h1>Témoignages</h1>
@@ -78,7 +85,7 @@ title: Mathieu Chiron | Ruby On Rails and Front Developper
     </div>
       <div class="witness">
         <h3> Simon Shfgdhfg</h3>
-        <p>Gérant</p>
+        <p class="detail-blue">Gérant</p>
       </div>
     </div>
     <div class="col-xs-12 col-sm-6 text-center">
@@ -88,8 +95,40 @@ title: Mathieu Chiron | Ruby On Rails and Front Developper
     </div>
       <div class="witness">
         <h3> Bob Dark Vador</h3>
-        <p>Dirigeant de </p>
+        <p class="detail-blue">Dirigeant de </p>
       </div>
-    </div>
+    </div>  
+    
   </div>
+  <hr>
+</div>
+
+<!-- /////////PORTFOLIO ///////// -->
+<div id="portfolio" class="container-fluid slimmer">
+  <h1>Portfolio</h1>
+  <p>gfdhfghdfhdfgf</p>
+
+  <div class="article">
+      <h2>SOL</h2>
+      <p>Asso d'art</p>
+
+    <p>Banh mi woke pitchfork schlitz vegan, poutine taxidermy fam street art hot chicken freegan. Kitsch fam raclette, fashion axe viral normcore aesthetic enamel pin mlkshk stumptown flexitarian semiotics microdosing vaporware. Green juice banjo chambray, tousled locavore lyft bitters. Next level mustache polaroid iceland. Blue bottle affogato 90's pabst. Bicycle rights glossier shoreditch hella yuccie salvia snackwave schlitz. Kale chips scenester letterpress occupy health goth, street art direct trade slow-carb williamsburg freegan.
+
+</p>
+
+  </div>
+
+  <% data.portfolio.each do |article| %>
+    <h2><%= article.name %></h2>
+    <p><%= article.occupation %></p>
+    <p><%= article.description %></p>
+    <hr class="blue">
+  <% end %>
+</div>
+
+<div id="perso" class="container-fluid slimmer">
+  <h1>Petite bio</h1>
+      <p>Je n’ai pas toujours été developpeur, mais j’ai toujours aimé construire et créer, que ce soit avec des legos, un crayon ou une guitare... Coder est une activité qui me rend heureux: les choses sorties de mon imagination prennent forme devant mes yeux, à chaque frappe de clavier. Je ne suis pas (encore) sur une scène de concert, mais des milliers de personnes peuvent quand même admirer mes créations…</p>
+      <p>Auparavant j‘ai été  (entres autres) commercial, et chargé de communication digitale, mais c’est à Paris, en 2013 que j'ai commencé à changer de cap. Je vendais sur mon propre site internet des avantages clients négociés auprès de bars parisiens. J’ai donc commencé à coder, pour pouvoir personnaliser ma plateforme et surtout réaliser des ventes en lignes. Depuis l’été 2016, je suis à plein temps au dessus de mon clavier!</p>
+      <p>Pour les connaisseurs, curieux, CTO et pour quelques points de référencement en plus, je travaille entre autres avec <em>Ruby on Rails, Middleman, jquery, Html, CSS, Sass et Bootstrap</em>.Toutes mes créations sont entièrement responsives, optimisées mobiles et prennent en compte tous les critères SEO fondamentaux pour assurer un référencement optimal.</p>
 </div>
