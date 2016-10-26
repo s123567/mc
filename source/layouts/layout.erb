@@ -25,7 +25,7 @@
   </head>
 
   <body class="<%= page_classes %>">
-    <nav class="navbar navbar-default navbar-fixed-top navbar-wagon" role="navigation">
+    <nav class="navigation navbar navbar-default navbar-fixed-bottom navbar-wagon" role="navigation" id="nav_bar">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -36,7 +36,7 @@
             <span class="icon-bar"></span>
           </button>
           <% link_to "/index.html", class: "navbar-brand" do %>
-            <%= image_tag 'logo.svg' %>
+            Mathieu Chiron
           <% end %>
         </div>
 
@@ -45,23 +45,15 @@
 
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <% link_to "/pricing.html" do %>
-                <i class="fa fa-dollar"></i> Pricing
+              <% link_to "#philo" do %>
+                 Philo
               <% end %>
             </li>
             <li>
-              <% link_to "/contact.html" do %>
-                <i class="fa fa-envelope-o"></i> Contact
+              <% link_to "#testimony" do %>
+                Temoignages
               <% end %>
             </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Follow-us <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="https://www.facebook.com/lewagonformation"><i class="fa fa-facebook-square"></i> Facebook</a></li>
-                <li><a href="https://twitter.com/lewagonparis"><i class="fa fa-twitter-square"></i> Twitter</a></li>
-              </ul>
-            </li>
-            <li><a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn">Order now</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
