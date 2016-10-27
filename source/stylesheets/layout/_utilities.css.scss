@@ -12,6 +12,9 @@
    color: $light-gray;
  }
 
+.fa-heart {
+  color: $red;
+}
 
 /*Taille*/
 
@@ -27,9 +30,9 @@
 
 .title {
   color:$red;
-  font-size: 2.7em;
+  font-size: 5em;
   margin-top: 0;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 
 /*Espace*/

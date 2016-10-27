@@ -13,10 +13,15 @@
 @import "pages/*";
 @import "vendor/*";
 
+p, h1, h2, h3, li {
+  text-align: justify;
+}
+
 p {
   color: $gray-text;
   font-weight: 300;
   font-size: 1.2em;
+
 }
 
 h1 {

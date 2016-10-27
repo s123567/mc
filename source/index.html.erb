@@ -34,12 +34,12 @@ title: Mathieu Chiron | Ruby On Rails and Front Developper
   
   <div class="row padded-sm">
     <div class="col-xs-12 col-sm-4">
-      <div class="big-sentence">
+      <div data-aos="fade-up" class="big-sentence">
         <h2>Design et code</h2>
       </div>
     </div>
     <div class="col-xs-12 col-sm-8">
-      <div class="explications">
+      <div data-aos="fade-up" class="explications">
         <p>Je sais aussi bien designer l’interface d’un site ou d’une application que concevoir ses mécanismes. Cela permet d’assurer une compréhension totale de votre projet et donc une réalisation cohérente.</p>
       </div>
     </div>
@@ -47,29 +47,30 @@ title: Mathieu Chiron | Ruby On Rails and Front Developper
 
   <div class="row padded-sm">
     <div class="col-xs-12 col-sm-4">
-      <div class="big-sentence">
+      <div data-aos="fade-up" class="big-sentence">
         <h2>Chacun de vos projets sera</h2>
       </div>
     </div>
     <div class="col-xs-12 col-sm-8">
-      <div class="explications">
+      <div data-aos="fade-up" class="explications">
         <p>Optimisé avec <b>les meilleures pratiques SEO</b>, afin de vous permettre d'être facilement retrouvé et surtout découvert sur les moteurs de recherche et les réseaux sociaux</p>
         <p><b>Responsive et optimisé mobile</b> pour offrir la meilleure expérience à vos utilisateurs et internautes</p>
-        <p>Fait à la main et avec amour</p>
+        <p>Fait à la main et avec <i class="fa fa-heart pulse" aria-hidden="true"></i>
+</p>
       </div>
     </div>
   </div>
 
   <div class="row padded-sm">
     <div class="col-xs-12 col-sm-4">
-      <div class="big-sentence">
+      <div data-aos="fade-up" class="big-sentence">
         <h2>Travaillons ensemble</h2>
       </div>
     </div>
     <div class="col-xs-12 col-sm-8">
-      <div class="explications">
+      <div data-aos="fade-up" class="explications">
         <p>Pour qu’un projet soit réussi, un travail d’équipe est nécessaire.</p>
-<p>Vos idées seront écoutées et respectées, et si nécessaire challengées et améliorées. </p>
+<p>Vos idées seront bien sûr écoutées et respectées, et si nécessaire challengées et améliorées. </p>
 <p>Si c'est votre première collaboration avec un développeur, je saurai vous guider et vous écouter, pour répondre au mieux à vos objectifs et trouver les solutions à vos problématiques.</p>
       </div>
     </div>
@@ -77,12 +78,12 @@ title: Mathieu Chiron | Ruby On Rails and Front Developper
 </div>
 <!-- /////////TEMOIGNAGES ///////// -->
 <div id="testimony" class="container-fluid">
-  <h1 class="title text-center">TEMOIGNAGES</h1>
+  <h1 class="title text-center">Témoignages</h1>
   <div class="row slimmer padded-sm">
     
-    <div class="col-xs-12 col-sm-6 text-center">
-      <div class="testimony-text"><p>
-        Umami pitchfork hammock forage farm-to-table poutine yuccie. Meggings selvage gluten-free, chia single-origin coffee copper mug pabst helvetica. Pop-up irony occupy 8-bit, cray sustainable readymade cronut raw denim air plant salvia flannel. Twee skateboard chia, pop-up you probably haven't heard of them tumeric iceland small batch u
+    <div class="col-xs-12 col-sm-6 text-center" >
+      <div data-aos="fade-right" data-sr class="testimony-text"><p>
+        <b>Umami pitchfork hammock forage farm-to-table poutine yuccie. Meggings selvage gluten-free, chia single-origin coffee copper mug pabst helvetica. Pop-up irony occupy 8-bit, cray sustainable readymade cronut raw denim air plant salvia flannel. Twee skateboard chia, pop-up you probably haven't heard of them tumeric iceland small batch u</b>
       </p>
     </div>
       <div class="witness">
@@ -90,14 +91,16 @@ title: Mathieu Chiron | Ruby On Rails and Front Developper
         <p class="detail-blue">Gérant</p>
       </div>
     </div>
-    <div class="col-xs-12 col-sm-6 text-center">
-      <div class="testimony-text"><p>
-        rg umami. Everyday carry next level salvia, williamsburg semiotics heirloom umami literally tattooed wolf letterpress banh mi. Woke vinyl fanny pack, brooklyn asymmetrical pug actually cliche ramps tattooed pork belly.
+    <div class="col-xs-12 col-sm-6 text-center" >
+      <div data-aos="fade-left" class="testimony-text">
+        <p class="testimony-text">
+        <b>rg umami. Everyday carry next level salvia, williamsburg semiotics heirloom umami literally tattooed wolf letterpress banh mi. Woke vinyl fanny pack, brooklyn asymmetrical pug actually cliche ramps tattooed pork belly.
+          </b>
       </p>
     </div>
       <div class="witness">
         <h3> Bob Dark Vador</h3>
-        <p class="detail-blue">Dirigeant de </p>
+        <p class="detail-blue">Président de l'association</p>
       </div>
     </div>  
     
@@ -106,9 +109,9 @@ title: Mathieu Chiron | Ruby On Rails and Front Developper
 
 <!-- /////////PORTFOLIO ///////// -->
 <div id="portfolio" class="container-fluid slimmer">
-  <h1 class="title text-center">Portfolio</h1>
+  <h1 class="title text-center element">Portfolio</h1>
   
-  <div class="padded-sm">
+  <div class="">
     <% data.portfolio.each do |article| %>
       <h2><%= article.name %></h2>
       <p><%= article.occupation %></p>
@@ -127,3 +130,4 @@ title: Mathieu Chiron | Ruby On Rails and Front Developper
       <hr class="hr-grey">
       <p>Pour les connaisseurs, curieux, CTO et pour quelques points de référencement en plus, je travaille entre autres avec <em>Ruby on Rails, Middleman, jquery, Html, CSS, Sass et Bootstrap</em>.Toutes mes créations sont entièrement responsives, optimisées mobiles et prennent en compte tous les critères SEO fondamentaux pour assurer un référencement optimal.</p>
 </div>
+
