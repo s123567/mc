@@ -13,7 +13,6 @@
 @import "pages/*";
 @import "vendor/*";
 
-
 p {
   color: $gray-text;
   font-weight: 300;
@@ -39,9 +38,16 @@ hr {
 
 }
 
-.blue {
+.hr-blue {
   background-color: $blue;
   height: 1px;
   border: 0;
   width: 25%;
+}
+
+.hr-grey {
+  background-color: $light-gray;
+  height: 1px;
+  border: 0;
+  width: 10%;
 }

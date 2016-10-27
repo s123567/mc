@@ -1,8 +1,25 @@
+
+/*Réglages persos*/
+
+.navigation {
+  height: 10vh;
+  font-family: 'Oswald';
+  letter-spacing: 2px;
+
+}
+
+.navigation li {
+  display: inline-block;
+  list-style: none;
+}
+
+
+
 /* -------------------------------------
  * Colors & Fonts
  * ------------------------------------- */
-$navbar-color: black;
-$navbar-hover-color: $yellow;
+$navbar-color: white;
+$navbar-hover-color: $blue;
 $navbar-font-family: $header-font;
 $navbar-bg: transparent;
 
@@ -73,6 +90,7 @@ $navbar-profile-border-width: 2px;
     color: $navbar-color;
     padding-top: $navbar-vertical-padding;
     padding-bottom: $navbar-vertical-padding;
+    line-height: 50px;
   }
 
   .navbar-nav > li > a.btn {

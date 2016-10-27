@@ -1,6 +1,6 @@
 - name: Salon Ouest Lyonnais
   occupation: Association d'Art 
-  description: "L'application réalisée pour cette association lyonnaise permet à chaque artiste de gérer son portfolio. Chacun peut mettre en avant ses oeuvres, et ses dates d'expositions visible sur son profil. L'accès est restreint aux membres de l'association. Aucune intervention des membres de l'association n'est requise, tout en offrant une fonction Administrateur aux responsables, afin d'avoir la main sur le contenu publié."
+  description: "L'application réalisée pour cette association lyonnaise permet à chaque artiste de gérer son portfolio. Chacun peut mettre en avant ses oeuvres, et ses dates d'expositions visible sur son profil. L'accès est restreint aux membres de l'association, tout en offrant une fonction Administrateur aux responsables, afin d'avoir la main sur le contenu publié."
   image_file: cap-site-sol.png
   alt_text: Site du client SOL| Salon de l'Ouest Lyonnais - Association d'Art 
 

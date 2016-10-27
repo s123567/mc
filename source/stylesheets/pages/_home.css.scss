@@ -1,5 +1,5 @@
 #landing {
-  background: image-url('street-art-site-b.jpg');
+  background: image-url('street-art-site-c.jpg');
   min-height: 100vh;
   background-size: cover;
   position:relative;
@@ -13,6 +13,9 @@
   align-content: center;
   height: 20vh;
   padding-top: 2em;
+  color: white;
+  font-family: 'Oswald';
+  font-weight: 300;
 }
 
 
@@ -23,29 +26,17 @@
   align-items: flex-start;
   align-content: center;
   height: 60vh;
+  font-family: 'Oswald';
 }
 
-.navigation {
-  height: 10vh;
+.landing-text {
+  color: white;
+  font-family: 'Playfair Display';
+  font-size: 3.3em;
 }
 
-
-#philo {
-  min-height: 100vh;
-}
-
-.big-sentence {
-  font-weight: 700;
-  font-size: 1.2em;
-}
-
-
-.testimony-text {
-  color: $dark-blue;
-}
-.detail-blue {
-  color: $blue;
-}
-.detail-grey {
-  color: $light-gray;
+.profession {
+  font-weight: 300;
+  font-size: 1.6em;
+  font-family: 'Oswald';
 }
