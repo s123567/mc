@@ -5,15 +5,16 @@ title: Mathieu Chiron | Ruby On Rails and Front Developper
 <div id="landing" class="container-fluid">
     <div class="name-contact padded-lr">
       <div class="name">
-        Mathieu Chiron
+        Mathieu <b>Chiron</b>
       </div>
       <div class="contact">
-        <span>06 49 83 21 10</span><span>contact</span>
+        <span><i class="fa fa-phone" aria-hidden="true"></i> +33 (0)6 49 83 21 10</span>
+          <span><i class="fa fa-paper-plane" aria-hidden="true"></i> Contact</span>
       </div>
     </div>
     <div class="slogan padded-lr">
-      <h1 class="landing-text">Sites internets épurés pour communication efficace</h1>
-      <h1 class="landing-text">Applications robustes pour clients heureux</h1>
+      <h1 class="landing-text">Sites web épurés & communication efficace</h1>
+      <h1 class="landing-text">Applications robustes & clients heureux</h1>
       <div class="metier">
         <h3 class="profession detail-blue">Développeur Front-end & Ruby On Rails</h3>
       </div>  
@@ -61,6 +62,20 @@ title: Mathieu Chiron | Ruby On Rails and Front Developper
     </div>
   </div>
 
+    <div class="row padded-sm">
+      <div class="col-xs-12 col-sm-4">
+        <div data-aos="fade-up" class="big-sentence">
+          <h2>Visible & Découvert</h2>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-8">
+        <div data-aos="fade-up" class="explications">
+          <p>La chose la plus importante pour une start-up, un artiste ou un artisan est d'être facilement retrouvé et surtout découvert, sur le le net</p>
+          <p>Pour cela je mets en place toutes les bonnes pratiques SEO pour augmenter vos visteurs ou clients</p>
+        </div>
+      </div>
+    </div>
+
   <div class="row padded-sm">
     <div class="col-xs-12 col-sm-4">
       <div data-aos="fade-up" class="big-sentence">
@@ -82,7 +97,8 @@ title: Mathieu Chiron | Ruby On Rails and Front Developper
   <div class="row slimmer padded-sm">
     
     <div class="col-xs-12 col-sm-6 text-center" >
-      <div data-aos="fade-right" data-sr class="testimony-text"><p>
+      <div data-aos="fade-right" data-sr>
+        <p class="testimony-text">
         <b>Umami pitchfork hammock forage farm-to-table poutine yuccie. Meggings selvage gluten-free, chia single-origin coffee copper mug pabst helvetica. Pop-up irony occupy 8-bit, cray sustainable readymade cronut raw denim air plant salvia flannel. Twee skateboard chia, pop-up you probably haven't heard of them tumeric iceland small batch u</b>
       </p>
     </div>
@@ -108,13 +124,13 @@ title: Mathieu Chiron | Ruby On Rails and Front Developper
 </div>
 
 <!-- /////////PORTFOLIO ///////// -->
-<div id="portfolio" class="container-fluid slimmer">
+<div id="portfolio" class="container-fluid slimmer-plus">
   <h1 class="title text-center element">Portfolio</h1>
   
   <div class="">
     <% data.portfolio.each do |article| %>
       <h2><%= article.name %></h2>
-      <p><%= article.occupation %></p>
+      <p class="detail-blue"><%= article.occupation %></p>
       <p><%= article.description %></p>
       <hr class="hr-blue">
     <% end %>  
@@ -130,4 +146,27 @@ title: Mathieu Chiron | Ruby On Rails and Front Developper
       <hr class="hr-grey">
       <p>Pour les connaisseurs, curieux, CTO et pour quelques points de référencement en plus, je travaille entre autres avec <em>Ruby on Rails, Middleman, jquery, Html, CSS, Sass et Bootstrap</em>.Toutes mes créations sont entièrement responsives, optimisées mobiles et prennent en compte tous les critères SEO fondamentaux pour assurer un référencement optimal.</p>
 </div>
-
+<footer>
+  <div id="footer" class="container-fluid">
+    <div class="row text-center">
+      <div class="col-xs-4">
+        <div class="contact-details">
+          <span><i class="fa fa-phone" aria-hidden="true"></i> 06 49 83 21 10</span>
+          <span><i class="fa fa-paper-plane" aria-hidden="true"></i> Contact</span>
+        </div>
+      </div>
+      <div class="col-xs-4">
+        <div class="social-icons">
+          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="col-xs-4">
+        <p>dhfg dfhdgfhdgfh dfhdghfgdhf d</p>
+        <p>fhdfghdgfd fdghfdghfdghfgdfhdf</p>
+        <p>gfhdgfhdgfhdghfdghf dfgdhfgd</p>
+      </div>
+    </div>
+    
+    
+  </div>
+</footer>

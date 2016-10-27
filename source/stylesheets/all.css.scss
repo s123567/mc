@@ -13,7 +13,7 @@
 @import "pages/*";
 @import "vendor/*";
 
-p, h1, h2, h3, li {
+p:not(.detail-blue) {
   text-align: justify;
 }
 
