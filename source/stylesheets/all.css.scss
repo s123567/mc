@@ -24,6 +24,12 @@ p {
 
 }
 
+a { color: inherit; } 
+a:hover, a:focus {
+    color: $blue;
+    text-decoration: none;
+}
+
 h1 {
   color: $dark-blue;
   font-size: 2.4em;
@@ -35,24 +41,23 @@ h2 {
   font-weight: 700;
 }
 
-hr {
-  background-color: $red;
-  height: 1px;
-  border: 0;
-  width: 50%;
-
+.details {
+  display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+  align-items:flex-start;
+  color: $light-gray;
 }
 
-.hr-blue {
-  background-color: $blue;
-  height: 1px;
-  border: 0;
-  width: 25%;
+.text-footer {
+  display: flex;
+  justfy-content:space-between;
+  align-items:flex-start;
+  height: 80%;
 }
 
-.hr-grey {
-  background-color: $light-gray;
-  height: 1px;
-  border: 0;
-  width: 10%;
+.footer-details {
+  font-size: 1em;
+  color: $dark-blue;
+  padding: 0 8px;
 }

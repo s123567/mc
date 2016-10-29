@@ -16,6 +16,38 @@
   color: $red;
 }
 
+/*Separateur*/
+
+hr {
+  background-color: $red;
+  height: 1px;
+  border: 0;
+  width: 50%;
+
+}
+
+.hr-blue {
+  background-color: $blue;
+  height: 1px;
+  border: 0;
+  width: 25%;
+}
+
+
+.hr-grey {
+  background-color: $light-gray;
+  height: 1px;
+  border: 0;
+  width: 10%;
+}
+
+.hr-grey-text {
+  background-color: $gray-text;
+  height: 1px;
+  border: 0;
+  width: 20%;
+}
+
 /*Taille*/
 
 .slimmer {
