@@ -42,22 +42,16 @@ h2 {
 }
 
 .details {
-  display: flex;
-  flex-direction:column;
-  justify-content: space-around;
-  align-items:flex-start;
   color: $light-gray;
+
 }
 
 .text-footer {
-  display: flex;
-  justfy-content:space-between;
-  align-items:flex-start;
   height: 80%;
 }
 
 .footer-details {
   font-size: 1em;
   color: $dark-blue;
-  padding: 0 8px;
+  padding: 5px 8px;
 }

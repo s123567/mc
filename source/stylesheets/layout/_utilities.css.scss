@@ -42,10 +42,12 @@ hr {
 }
 
 .hr-grey-text {
-  background-color: $gray-text;
-  height: 1px;
+  background-color: $dark-blue;
+  height: 4px;
   border: 0;
-  width: 20%;
+  width: 95%;
+  margin:0 auto;
+  padding: 0;
 }
 
 /*Taille*/
@@ -77,6 +79,11 @@ hr {
 .padded-sm {
   padding-top: 2em;
   padding-bottom: 2em;
+}
+
+.padded-xs {
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
 }
 
 .padded-lr {
