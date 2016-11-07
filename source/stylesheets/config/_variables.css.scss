@@ -7,7 +7,6 @@ $header-font: "Fjalla One", "sans-serif";
 @import url('https://fonts.googleapis.com/css?family=|Roboto:300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Roboto+Condensed:300,400,700');
 @import url('https://fonts.googleapis.com/css?family=Oswald:300,700');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
 
 
 // Local fonts (uncomment following lines)
@@ -29,13 +28,18 @@ $base-height: 1.4;
  * ------------------------------------- */
 // Scheme
 
+$purple-title: #464775;
+$purple-text: #747498;
+$purple-gray:#F8F7FA;
+$whitish: #FEFEFE;
 $red: #FC5253;
 $blue: #A0D8F2;
-$gray-text: #767b7c;
-$light-gray: #D9D9D9;
+$gray-text: #515050;
+$gray: #A4A4A4;
+$light-gray: #CFCFCF;
 $dark-blue: #33384A; 
 $yellow: #FDB631;
-$orange: #E67E22;
+$orange: #EC7639;
 $green: #32B796;
 $purple: #6452BD;
 

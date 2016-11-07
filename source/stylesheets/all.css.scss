@@ -13,13 +13,14 @@
 @import "pages/*";
 @import "vendor/*";
 
-p:not(.detail-blue) {
+
+p:not(.detail-gray) {
   text-align: justify;
 }
 
 p {
-  color: $gray-text;
-  font-weight: 300;
+  color: $purple-text;
+  font-weight: 400;
   font-size: 1.2em;
 
 }
@@ -31,13 +32,19 @@ a:hover, a:focus {
 }
 
 h1 {
-  color: $dark-blue;
+  color: $purple-title;
   font-size: 2.4em;
 }
 
 h2 {
-  color: $dark-blue;
+  color: $purple-title;
   font-size: 2.1em;
+  font-weight: 700;
+}
+
+h3 {
+  color: $purple-title;
+  font-size: 1.9em;
   font-weight: 700;
 }
 
@@ -52,6 +59,57 @@ h2 {
 
 .footer-details {
   font-size: 1em;
-  color: $dark-blue;
+  color: $gray-text;
   padding: 5px 8px;
 }
+
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+      /*.landing-text {
+        font-size: 4.5em;
+      }*/
+
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+      /*.landing-text {
+        font-size: 3.6em;
+      }*/
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+      /*.landing-text {
+        font-size: 3.1em;
+      }*/
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+      /*.landing-text {
+        font-size: 2.8em;
+      }*/
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+
+     /* .landing-text {
+        font-size: 3em;
+      }
+        */
+    }

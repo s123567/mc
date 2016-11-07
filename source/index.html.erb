@@ -8,38 +8,36 @@ title: Mathieu Chiron | Ruby On Rails and Front Developper
 </div><!-- .welcome -->
 
 <!-- /////////PHILOSOPHIE ///////// -->
-<div id="philo" class="container-fluid slimmer scroll-to">
+<div id="philo" class="container-fluid padded-sm slimmer scroll-to">
   <%= partial 'philo' %>
-  
 </div>
+
+  <hr class="hr-gray hr-80">
 <!-- /////////TEMOIGNAGES ///////// -->
-<div id="testimony" class="container-fluid">
+<div id="testimony" class="container-fluid padded-sm">
   <%= partial 'testimony' %>
 </div>
 
+  <hr class="hr-gray hr-80">
 <!-- /////////PORTFOLIO ///////// -->
-<div id="portfolio" class="container-fluid slimmer-plus">
+<div id="portfolio" class="container-fluid padded-sm slimmer-plus">
   <h1 class="title text-center element">Portfolio</h1>
   
   <div class="">
     <% data.portfolio.each do |article| %>
       <h2><%= article.name %></h2>
-      <p class="detail-blue"><%= article.occupation %></p>
+      <p class="detail-gray"><%= article.occupation %></p>
       <p><%= article.description %></p>
-      <hr class="hr-blue">
     <% end %>  
   </div>
-  <br>
-  <br>
-  <br>
 </div>
+  
+  <hr class="hr-gray hr-80">
 
-<div id="perso" class="container-fluid slimmer">
+<div id="perso" class="container-fluid padded-sm slimmer">
   <h1 class="title text-center">Petite bio</h1>
-      <p>Je n’ai pas toujours été developpeur, mais j’ai toujours aimé construire et créer, que ce soit avec des legos, un crayon ou une guitare... Coder est une activité qui me rend heureux: les choses sorties de mon imagination prennent forme devant mes yeux, à chaque frappe de clavier. Je ne suis pas (encore) sur une scène de concert, mais des milliers de personnes peuvent quand même admirer mes créations…</p>
-      <hr class="hr-grey">
-      <p>Auparavant j‘ai été  (entres autres) commercial, et chargé de communication digitale, mais c’est à Paris, en 2013 que j'ai commencé à changer de cap. Je vendais sur mon propre site internet des avantages clients négociés auprès de bars parisiens. J’ai donc commencé à coder, pour pouvoir personnaliser ma plateforme et surtout réaliser des ventes en lignes. Depuis l’été 2016, je suis à plein temps au dessus de mon clavier et réside à Lyon.!</p>
-      <hr class="hr-grey">
+      <p>Je n’ai pas toujours été developpeur, mais j’ai toujours aimé construire et créer. Coder est une activité qui me rend heureux: les choses sorties de mon imagination prennent forme devant mes yeux, à chaque frappe de clavier. Je ne suis pas (encore) sur une scène de concert, mais des milliers de personnes peuvent quand même admirer mes créations…</p>
+      <p class="padded-sm">Avant d'être développeur j‘ai été (entres autres) commercial, et chargé de communication digitale. C’est à Paris, en 2013 que j'ai commencé à changer de cap. En créant ma société d'avantages clients au sein de bars parsiens, j’ai en même temps commencé à coder, pour pouvoir personnaliser ma plateforme et réaliser mes ventes en lignes.</p>
       <p>Pour les connaisseurs, curieux, CTO et pour quelques points de référencement en plus, je travaille entre autres avec <em>Ruby on Rails, Middleman, jquery, Html, CSS, Sass et Bootstrap</em></p>
 </div>
 <footer>

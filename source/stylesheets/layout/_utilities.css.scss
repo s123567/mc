@@ -8,8 +8,8 @@
  .detail-blue {
    color: $blue;
  }
- .detail-grey {
-   color: $light-gray;
+ .detail-gray {
+   color: $gray;
  }
 
 .fa-heart {
@@ -19,29 +19,31 @@
 /*Separateur*/
 
 hr {
-  background-color: $red;
+  background-color: $gray;
   height: 1px;
   border: 0;
   width: 50%;
 
 }
 
-.hr-blue {
-  background-color: $blue;
-  height: 1px;
-  border: 0;
-  width: 25%;
+.hr-orange {
+  background-color: $orange;
 }
 
 
-.hr-grey {
+.hr-gray {
   background-color: $light-gray;
-  height: 1px;
-  border: 0;
-  width: 10%;
 }
 
-.hr-grey-text {
+.hr-30 {
+  width: 30%;
+}
+
+.hr-80 {
+  width: 80%;
+}
+
+.hr-gray-text {
   background-color: $dark-blue;
   height: 4px;
   border: 0;
@@ -63,7 +65,7 @@ hr {
 }
 
 .title {
-  color:$red;
+  color:$purple-title;
   font-size: 5em;
   margin-top: 0;
   margin-bottom: 0.5em;

@@ -1,42 +1,63 @@
 #landing {
-  background: image-url('street-art-site-d.jpg');
+  background: image-url('rails-violetdark-cut.jpg') center;
+  background-size: cover;
+  color: white;
+  min-height: 100vh;
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*#landing {
+  background: image-url('pinapples-cut-sm.jpeg');
   min-height: 100vh;
   background-size: cover;
   position:relative;
   color: white;
-}
+}*/
 
 .name-contact {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  align-content: center;
-  height: 20vh;
-  padding-top: 2em;
-  color: white;
+  align-items: center;
+  self-align: flex-start;
+  flex-direction: column;
+  color: $orange;
   font-family: 'Oswald';
   font-weight: 300;
 }
 
+.name {
+  font-family: 'Oswald', serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  color: $whitish;
+}
 
 .slogan {
   display: flex;
-  justify-content: space-around;
+  align-items: center;
   flex-direction: column;
-  align-items: flex-start;
   align-content: center;
-  height: 60vh;
-  font-family: 'Oswald';
+  font-family: 'Fjalla One';
+  width: 80vw;
+
 }
 
 .landing-text {
-  color: white;
-  font-family: 'Playfair Display';
-  font-size: 3.3em;
+  color: $whitish;
+  font-family: 'Fjalla One';
+  font-size: 4vw;
+  font-weight: 300;
+
+  
 }
 
 .profession {
   font-weight: 300;
-  font-size: 1.6em;
+  font-size: 1.1em;
   font-family: 'Oswald';
+  color: $purple-gray;
 }

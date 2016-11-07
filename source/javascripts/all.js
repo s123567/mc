@@ -11,8 +11,8 @@ $(document).ready(function() {
   $(window).scroll(function(e){
       if ($(this).scrollTop() > 0) {
         $(".navbar").css({
-          "background": "rgba(0, 0, 0, 0.7)",
-          "box-shadow": "0 0 2px black"
+          "background": "rgba(41, 42, 68, 0.8)",
+          "box-shadow": "0 0 2px #292a44"
         });
       }
       else {
