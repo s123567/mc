@@ -1,6 +1,18 @@
 // Your footer style
 
 #footer {
-  background-color:$red;
-   
+  background-color:$purple-gray;
+  color: $purple-title;
 }
+
+.text-footer {
+  height: 80%;
+}
+
+.footer-details {
+  font-size: 1.1em;
+  color: $purple-title;
+  padding: 5px 8px;
+  text-align: center;
+}
+

@@ -53,15 +53,6 @@ h3 {
 
 }
 
-.text-footer {
-  height: 80%;
-}
-
-.footer-details {
-  font-size: 1em;
-  color: $gray-text;
-  padding: 5px 8px;
-}
 
 
 /*==================================================
@@ -72,9 +63,7 @@ h3 {
 
     /* Large Devices, Wide Screens */
     @media only screen and (max-width : 1200px) {
-      /*.landing-text {
-        font-size: 4.5em;
-      }*/
+      
 
 
     }
@@ -82,34 +71,31 @@ h3 {
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
 
-      /*.landing-text {
-        font-size: 3.6em;
-      }*/
+      
 
     }
 
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
 
-      /*.landing-text {
-        font-size: 3.1em;
-      }*/
+         p {
+      font-size: 1em;
+          }
 
     }
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
-      /*.landing-text {
-        font-size: 2.8em;
-      }*/
+         p {
+      font-size: 0.9em;
+          }
 
     }
 
     /* Custom, iPhone Retina */ 
     @media only screen and (max-width : 320px) {
 
-     /* .landing-text {
-        font-size: 3em;
+     p {
+  font-size: 0.8em;
       }
-        */
     }

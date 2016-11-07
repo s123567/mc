@@ -1,34 +1,16 @@
 <div id="footer" class="container-fluid">
-    <div class="footer-elements row text-center slimmer padded-xs">
-      <div class="col-xs-4 col-sm-4">
-        <i class="fa fa-phone" aria-hidden="true"></i> 06 49 83 21 10
-
+    <div class="row slimmer padded-sm">
+      <div class="col-xs-12 text-center">
+        <h1>Rencontrons-nous!</h1>
+        <p class="footer-details text-center">Freelance, je suis basé à Lyon et travaille également à distance. Contactez-moi pour parler tranquillement de votre projet autour d'un café ou au 06 49 83 21 10.</p>
+        <div class="social padded-xs">
+          <span class="padded-lr"><%= mail_to 'mathieu1chiron@gmail.com', '<i class="fa fa-envelope fa-2x" aria-hidden="true"></i>'%></span>
+          <span class="padded-lr"><%= link_to "", 'https://github.com/s123567',:target=>'_blank', class: "fa fa-github fa-2x" %></span>
+          <span class="padded-lr"><%= link_to "", 'https://www.linkedin.com/in/mathieu-chiron-3892869a',:target=>'_blank', class: "fa fa-linkedin-square fa-2x" %>  </span>
+        </div>
+        
       </div>
-      <div class="col-xs-4 col-sm-4">
-        <%= mail_to 'mathieu1chiron@gmail.com', '<i class="fa fa-paper-plane" aria-hidden="true"></i> Contactez-moi'%>
-
-      </div>
-      <div class="col-xs-4 col-sm-4">
-        <span>
-          <%= link_to "", 'https://github.com/s123567',:target=>'_blank', class: "fa fa-github fa-2x" %>
-          <%= link_to "", 'https://www.linkedin.com/in/mathieu-chiron-3892869a',:target=>'_blank', class: "fa fa-linkedin-square fa-2x" %>
-        </span>
-
-      </div>
-    </div>
-    <div class="row slimmer">
-      <div class="col-xs-12 col-sm-4">
-        <hr class="hr-grey-text">
-        <p class="footer-details">Freelance, je travaille également à distance. Je suis basé à Lyon et parle couramment Anglais & Espagnol.</p>
-      </div>
-      <div class="col-xs-12 col-sm-4">
-        <hr class="hr-grey-text">
-        <p class="footer-details">Contactez moi pour une rencontre autour d'un café, une estimation de votre projet ou pour savoir si je suis l'homme de votre situation!</p>
-      </div>
-      <div class="col-xs-12 col-sm-4">
-        <hr class="hr-grey-text">
-        <p class="footer-details">J'aime beaucoup collaborer avec des artistes et des personnes créatives. Si vous lisez ces lignes, faites-moi signe! </p>
-      </div>    
+          
     </div>
 
 </div>
