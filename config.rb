@@ -75,7 +75,7 @@ configure :build do
   activate :favicon_maker
 
   # Site map
-  activate :sitemap, hostname: data.settings.site.url
+  # activate :sitemap, hostname: data.settings.site.url
 
   # Use relative URLs
   activate :relative_assets
