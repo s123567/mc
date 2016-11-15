@@ -8,6 +8,11 @@ $(document).ready(function() {
     duration: 1200
   });
 
+  $('#toggle').click(function() {
+     $(this).toggleClass('active');
+     $('#overlay').toggleClass('open');
+    });
+  
   $(window).scroll(function(e){
       if ($(this).scrollTop() > 0) {
         $(".navbar").css({

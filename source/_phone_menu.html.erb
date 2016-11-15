@@ -1,0 +1,31 @@
+<div class="button_container visible-xs hidden-sm" id="toggle">
+  <span class="top"></span>
+  <span class="middle"></span>
+  <span class="bottom"></span>
+</div>
+
+<div class="overlay" id="overlay">
+  <nav class="overlay-menu">
+    <ul>
+      <li>
+              <% link_to "#testimony" do %>
+                Témoignages
+              <% end %>
+            </li>
+            <li>
+              <% link_to "#portfolio" do %>
+                 Portfolio
+              <% end %>
+            </li>
+            <li>
+              <% link_to "#perso" do %>
+                 Petite Bio
+              <% end %>
+            </li>
+            <li>
+              <%= mail_to 'mathieu1chiron@gmail.com', 'Contact' %>
+
+            </li>
+    </ul>
+  </nav>
+</div>
