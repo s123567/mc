@@ -8,24 +8,24 @@
   <nav class="overlay-menu">
     <ul>
       <li>
-              <% link_to "#testimony" do %>
-                Témoignages
-              <% end %>
-            </li>
-            <li>
-              <% link_to "#portfolio" do %>
-                 Portfolio
-              <% end %>
-            </li>
-            <li>
-              <% link_to "#perso" do %>
-                 Petite Bio
-              <% end %>
-            </li>
-            <li>
-              <%= mail_to 'mathieu1chiron@gmail.com', 'Contact' %>
+          <% link_to "#testimony", :class=>"link" do %>
+            Témoignages
+          <% end %>
+        </li>
+        <li class="link">
+          <% link_to "#portfolio", :class=>"link" do %>
+             Portfolio
+          <% end %>
+        </li>
+        <li>
+          <% link_to "#perso", :class=>"link" do %>
+             Petite Bio
+          <% end %>
+        </li>
+        <li>
+          <%= mail_to 'mathieu1chiron@gmail.com', 'Contact' %>
 
-            </li>
+        </li>
     </ul>
   </nav>
 </div>

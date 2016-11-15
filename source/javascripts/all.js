@@ -12,6 +12,11 @@ $(document).ready(function() {
      $(this).toggleClass('active');
      $('#overlay').toggleClass('open');
     });
+
+  $('.link').click(function(){
+      $('#overlay').removeClass('open');
+      $('#toggle').toggleClass('active');
+  });
   
   $(window).scroll(function(e){
       if ($(this).scrollTop() > 0) {
