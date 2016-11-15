@@ -28,8 +28,7 @@ title: Mathieu Chiron | Ruby On Rails and Front-End Developper
       <h2><%= article.name %></h2>
       <p class="detail-gray"><%= article.occupation %></p>
       <p><%= article.description %></p>
-      <p><i class="fa fa-external-link" aria-hidden="true"></i>
-<%= article.link_site %></p>
+      <p>Visiter le site <%= link_to "", article.link_site, :target=> '_blank', class:"fa fa-external-link" %>
     <% end %>  
   </div>
 </div>
@@ -38,15 +37,23 @@ title: Mathieu Chiron | Ruby On Rails and Front-End Developper
 
 <div id="perso" class="container-fluid padded-sm slimmer">
   <div class="row">
-    <h1 class="title text-center">Petite bio</h1>
     <div class="col-xs-12 padded-sm">
-        <%= image_tag ('MatBook-3-band.jpg'), class:'img-rounded img-responsive' %>
+        <%= image_tag ('MatBook-3-band.jpg'), class:'img-rounded img-responsive center-block' %>
       
     </div>
-    <div class="col-xs-12">
-            <p>Je n’ai pas toujours été developpeur, mais j’ai toujours aimé construire et créer. Coder est une activité qui me rend heureux: les choses sorties de mon imagination prennent forme devant mes yeux, à chaque frappe de clavier. Je ne suis pas (encore) sur une scène de concert, mais des milliers de personnes peuvent quand même admirer mes créations…</p>
-            <p class="padded-sm">Avant d'être développeur j‘ai été (entres autres) commercial, et chargé de communication digitale. C’est à Paris, en 2013 que j'ai commencé à changer de cap. En créant ma société d'avantages clients au sein de bars parsiens, j’ai en même temps commencé à coder, pour pouvoir personnaliser ma plateforme et réaliser mes ventes en lignes.</p>
-            <p>Pour les connaisseurs, curieux, CTO et pour quelques points de référencement en plus, je travaille entre autres avec <em>Ruby on Rails, Middleman, jquery, Html, CSS, Sass et Bootstrap</em></p>
+    <div class="col-xs-12 col-md-2">
+      <h1 class:"title">Petite bio</h1>
+      
+    </div>
+    <div class="col-xs-12 col-md-5">
+      <p class="">Avant d'être développeur j‘ai été (entres autres) commercial, et chargé de communication digitale. C’est à Paris, en 2013 que j'ai commencé à changer de cap. En créant ma société de ventes d'avantages clients au sein de bars parsiens. J’ai en même temps commencé à coder, pour pouvoir personnaliser ma plateforme et réaliser mes ventes en lignes.</p>
+    </div>
+    <div class="col-xs-12 col-md-5">
+      <p>Maintenant, c'est coder me rend heureux: les choses sorties de mon imagination prennent forme devant mes yeux, à chaque frappe de clavier</p>
+      <p>Pour les connaisseurs, curieux, CTO et pour quelques points de référencement en plus, je travaille entre autres avec <em>Ruby on Rails, Middleman, jquery, Html, CSS, Sass et Bootstrap</em></p>
+
+    </div>            
+
       </div>
     </div>
   </div>
