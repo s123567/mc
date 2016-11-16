@@ -96,6 +96,10 @@ GEM
     middleman-minify-html (3.4.1)
       htmlcompressor (~> 0.2.0)
       middleman-core (>= 3.2)
+    middleman-protect-emails (0.4.0)
+      middleman-core (>= 3.4)
+    middleman-robots (1.1.0)
+      middleman (>= 3.3)
     middleman-sitemap (0.0.13)
       middleman-core (>= 3.2.2)
     middleman-sprockets (3.4.2)
@@ -162,6 +166,8 @@ DEPENDENCIES
   middleman-favicon-maker
   middleman-google-analytics
   middleman-minify-html
+  middleman-protect-emails
+  middleman-robots
   middleman-sitemap
   tzinfo-data
   wdm (~> 0.1.0)

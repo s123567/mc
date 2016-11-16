@@ -36,6 +36,8 @@ activate :google_analytics do |ga|
     ga.minify = true
 end
 
+
+activate :protect_emails
 ###
 # Helpers
 ###
@@ -71,6 +73,11 @@ configure :build do
 
   # Enable cache buster
   # activate :asset_hash
+
+  activate :robots, :rules => [
+      {:user_agent => '*', :allow => %w(/)}
+    ],
+    :sitemap => "http://mathieuchiron.com/sitemap.xml"
   
   activate :google_analytics do |ga|
     ga.tracking_id = 'UA-87387307-1'

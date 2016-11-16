@@ -8,6 +8,10 @@ gem 'middleman-sitemap'
 gem 'middleman-google-analytics'
 gem 'middleman-minify-html'
 
+gem 'middleman-protect-emails'
+gem 'middleman-robots'
+
+
 # Live-reloading plugin
 # gem "middleman-livereload"
 
