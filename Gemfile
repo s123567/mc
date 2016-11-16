@@ -6,6 +6,7 @@ gem "middleman", "~> 3.4"
 gem "middleman-favicon-maker"
 gem 'middleman-sitemap'
 gem 'middleman-google-analytics'
+gem 'middleman-minify-html'
 
 # Live-reloading plugin
 # gem "middleman-livereload"
