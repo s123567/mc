@@ -1,3 +1,7 @@
 google_analytics:
   tracking_code: UA-87387307-1
   url: "http://www.mathieuchiron.com"
+site:
+  title: 'Mathieu Chiron | Ruby On Rails and Front-End Developper'
+  description: 'Je développe des web applications sous Ruby on Rails et réalise des sites dynamiques.'
+  url: "http://www.mathieuchiron.com"
