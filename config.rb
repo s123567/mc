@@ -71,8 +71,36 @@ configure :build do
 
   # Enable cache buster
   # activate :asset_hash
+  
+  activate :google_analytics do |ga|
+    ga.tracking_id = 'UA-87387307-1'
+
+    # Removing the last octet of the IP address (default = false)
+     ga.anonymize_ip = false
+
+     # Tracking across a domain and its subdomains (default = nil)
+     ga.domain_name = 'mathieuchiron.com'
+
+     # Tracking across multiple domains and subdomains (default = false)
+     ga.allow_linker = false
+
+     # Enhanced Link Attribution (default = false)
+     ga.enhanced_link_attribution = false
+
+     # Tracking Code Debugger (default = false)
+     ga.debug = false
+
+     # Tracking in development environment (default = true)
+     ga.development = true
+
+     # Compress the JavaScript code (default = false)
+     ga.minify = false
+
+     # Output style - :html includes <script> tag (default = :html)
+     ga.output = :js
+  end
+
   # Favicon
-  activate :favicon_maker
 
   activate :favicon_maker do |f|
       f.template_dir  = File.join(root, 'source')
