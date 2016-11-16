@@ -78,7 +78,7 @@ configure :build do
       f.template_dir  = File.join(root, 'source')
       f.output_dir    = File.join(root, 'build')
       f.icons = {
-        "_favicon_template.png" => [
+        "_favicon.png" => [
           { icon: "apple-touch-icon-152x152-precomposed.png" },
           { icon: "apple-touch-icon-144x144-precomposed.png" },
           { icon: "apple-touch-icon-120x120-precomposed.png" },

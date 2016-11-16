@@ -5,17 +5,25 @@
 
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-    
-    <!-- For Bootstrap responsiveness -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "The Middleman" %></title>
-
+    
+<!-- SEO -->
+    <meta content="<%= data.site.title %>" name="title"  />
+    <meta content="<%= data.site.description %>" name="description" />
+    <meta content="ruby on rails, Web applications, Site responsive, site artiste, gallerie d'art, Développeur freelance" name="keywords"   />
+    <meta name="robots" content="<%= data.site.robots %>"  />
+    <meta property="dc:language" content="fr-FR"  />
+    <meta property="dc:creator" content="Mathieu Chiron"  />
+    <meta property="dc:format" content="text/html"  />
+    <meta property="og:type" content="website"  />
+    <meta name="twitter:card" content="Mathieu Chiron"  />
+    <meta name="twitter:site" content="Mathieu Chiron"  />
+    <meta name="twitter:creator" content="Mathieu Chiron"  />
+    <meta name="twitter:domain" content="http://mathieuchiron.com"  />
+<!-- end seo -->
     <%= stylesheet_link_tag "all" %>
     <%= javascript_include_tag  "all" %>
-    <meta name="description" content="Réalisaton de sites dynamiques et d'applications Ruby On Rails. Freelance et travail à distance.">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
     <!--[if lt IE 9]>
