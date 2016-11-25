@@ -1,7 +1,7 @@
 - name: Salon Ouest Lyonnais
   occupation: Association d'Art 
   description: |
-                Bien plus qu'un site vitrine, j'ai réalisé pour cette association d'Art lyonnaise une véritable application de gestion de ses adhérents.</br>
+                Bien plus qu'un site vitrine, j'ai réalisé pour cette association lyonnaise d'Art une véritable application de gestion de ses adhérents.</br>
                 Cette web application permet à chaque artiste de gérer son portfolio. Chacun peut mettre en avant ses oeuvres, et ses dates d'expositions visible sur son profil. </br>
                 L'accès est restreint aux membres de l'association, tout en offrant une fonction Administrateur aux responsables, afin d'avoir la main sur le contenu publié. </br>
                 Le design est volontairement sobre et blanc pour mettre en avant les oeuvres de chaque artiste sans perturber le visiteur, à la manière d'une exposition. Les oeuvres sont hébergées sur un système tiers, que j'ai paramétré pour un traitement spécifique de chaque photographie.
@@ -13,7 +13,7 @@
   occupation: Projet personnel
   description: |
                 J'ai réalisé cette application dans un but personnel, pour améliorer l'apprentissage de nouveaux languages de programmation. </br>
-                Cette app est basée sur le système d'apprentissage par répétition espacée. L'utilisateur ajoute ses questions, et ses propres réponses dans le but de fair eun test chaque jour, et mémoriser ce qu'il juge nécessaire (règle grammaticale, théorie musicale, réponses à un examen, etc...)
+                Cette app est basée sur le système d'apprentissage par répétition espacée. L'utilisateur ajoute ses questions, et ses propres réponses dans le but de faire un test chaque jour, et mémoriser ce qu'il juge nécessaire (règle grammaticale, théorie musicale, réponses à un examen, etc...)
   image_file: cap-application-anki.png
   alt_text: Site d'une application personnel ANKI - Répétition espacée
   link_site: http://my-anki.herokuapp.com/
